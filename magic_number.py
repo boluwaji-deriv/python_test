@@ -15,5 +15,3 @@ def run_program_x_times(chances):
         print("This is attempt {}".format(attempt))
         print(ask_user_and_check_number())
 run_program_x_times(6)
-
-    
