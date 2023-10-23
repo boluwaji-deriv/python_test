@@ -12,7 +12,6 @@ def ask_user_and_check_number():
 def run_program_x_times(chances):
     for i in range(chances): # range(chances) is [0,1,2]
         print("This is attempt {}".format(i+1))
-        message=(ask_user_and_check_number())
-        print(message)  
+        print(ask_user_and_check_number())  
 run_program_x_times(how)
 
